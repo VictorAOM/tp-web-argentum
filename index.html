@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Argentum Online — Presentación TP</title>
+  <meta name="description" content="Página oficial de presentación del TP de Taller de Programación I." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark">AO</span>
+      <span>Argentum Online</span>
+    </div>
+    <nav>
+      <a href="#datos">Datos</a>
+      <a href="#demo">Demo</a>
+      <a href="#proyecto">Proyecto</a>
+      <a href="#stack">Stack</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">Taller de Programación I · FIUBA</p>
+        <h1>Argentum Online</h1>
+        <h2>Demo técnica</h2>
+        <p class="lead">
+          Desarrollo de un videojuego multijugador inspirado en la estética clásica de los RPG 2D,
+          con arquitectura cliente-servidor, renderizado en tiempo real, entidades animadas,
+          inventario y sincronización de estado entre jugadores.
+        </p>
+        <div class="actions">
+          <a class="btn primary" href="#demo">Ver demo</a>
+          <a class="btn" href="#proyecto">Ver proyecto</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="datos" class="section tp-info">
+      <div class="section-head">
+        <p class="eyebrow">Información académica</p>
+        <h2>Taller de Programación I</h2>
+        <p>FIUBA · Curso 01 - Veiga · 1C2026</p>
+      </div>
+
+      <div class="info-grid">
+        <article class="card">
+          <span class="card-title">Datos del curso</span>
+          <table class="info-table">
+            <tbody>
+              <tr>
+                <th>Curso</th>
+                <td>01 - Veiga</td>
+              </tr>
+              <tr>
+                <th>Cuatrimestre</th>
+                <td>1C2026</td>
+              </tr>
+            </tbody>
+          </table>
+        </article>
+
+        <article class="card">
+          <span class="card-title">Integrantes</span>
+          <table class="info-table">
+            <thead>
+              <tr>
+                <th>Nombre</th>
+                <th>Padrón</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>KUPA, Martin Ariel</td>
+                <td>112560</td>
+              </tr>
+              <tr>
+                <td>STIFMAN, Facundo Camilo</td>
+                <td>112541</td>
+              </tr>
+              <tr>
+                <td>MICHELLI, Emilio</td>
+                <td>111722</td>
+              </tr>
+              <tr>
+                <td>OLIVA MONTAÑO, Víctor André</td>
+                <td>112748</td>
+              </tr>
+            </tbody>
+          </table>
+        </article>
+      </div>
+    </section>
+
+    <section id="demo" class="section">
+      <div class="section-head">
+        <p class="eyebrow">Video principal</p>
+        <h2>Demo del juego</h2>
+        <p>
+          Recorrido por las funcionalidades implementadas: ingreso al juego, movimiento del personaje,
+          cámara, interacción con el mapa, renderizado de entidades y comunicación entre clientes.
+        </p>
+      </div>
+
+      <div class="youtube-frame">
+        <iframe
+          src="https://youtu.be/hjM7UCIFi2M"
+          title="Demo Argentum Online"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </section>
+
+    <section id="proyecto" class="section">
+      <div class="section-head">
+        <p class="eyebrow">Proyecto</p>
+        <h2>Características principales</h2>
+      </div>
+
+      <div class="grid">
+        <article class="card">
+          <span class="card-title">Cliente gráfico</span>
+          <p>
+            Interfaz de usuario y renderizado del mundo en 2D, con cámara centrada en el jugador,
+            sprites animados y composición visual por capas.
+          </p>
+        </article>
+
+        <article class="card">
+          <span class="card-title">Servidor autoritativo</span>
+          <p>
+            Administración centralizada del estado del juego, procesamiento de comandos,
+            validación de acciones y distribución de actualizaciones a los clientes conectados.
+          </p>
+        </article>
+
+        <article class="card">
+          <span class="card-title">Mundo interactivo</span>
+          <p>
+            Soporte para mapas, obstáculos, entidades, movimiento, inventario y representación
+            visual coherente con una experiencia RPG multijugador.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="stack" class="section">
+      <div class="section-head">
+        <p class="eyebrow">Tecnologías</p>
+        <h2>Stack usado</h2>
+        <p>
+          El proyecto integra herramientas de bajo nivel para renderizado, comunicación,
+          organización del código y configuración del juego.
+        </p>
+      </div>
+
+      <div class="chips">
+        <span>C++</span>
+        <span>Qt</span>
+        <span>SDL2</span>
+        <span>SDL_image</span>
+        <span>Sockets</span>
+        <span>Threads</span>
+        <span>CMake</span>
+        <span>JSON/TOML</span>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Taller de Programación I · FIUBA · Argentum Online</p>
+  </footer>
+</body>
+</html>
