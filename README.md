@@ -7,7 +7,7 @@ Página estática para presentar el TP de Taller de Programación I usando un vi
 En `index.html`, buscar:
 
 ```html
-https://youtu.be/hjM7UCIFi2M
+https://www.youtube.com/embed/hjM7UCIFi2M
 ```
 
 ## Uso local
